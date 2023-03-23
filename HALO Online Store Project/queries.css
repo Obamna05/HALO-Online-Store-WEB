@@ -43,8 +43,63 @@
     }
     .currencyClass
     {
+        left: 25%;
+        top: 78.5%;
+    }
+    #featuredText
+    {
+        left: 0;
+        max-width: 100%;
+        bottom: 90%;
+    }
+}
+@media screen and (max-width: 420px) {
+    #item1
+    {
+        position: absolute;
+        left: 10%;
+        height: 20vmin;
+        width: 25vmin;
+    }
+    #item2
+    {
+        position: absolute;
+        left: 65%;
+        height: 20vmin;
+        width: 25vmin;
+    }
+    #item3
+    {
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        height: 20vmin;
+        width: 25vmin;
+    }
+    #item4
+    {
+        position: absolute;
+        left: 65%;
+        top: 60%;
+        height: 20vmin;
+        width: 25vmin;
+    }
+    .itemName
+    {
+        font-size: 4vmin;
+    }
+    #mainTitle, #promethean, #featuredDarken, #featuredP
+    {
+        display:none;
+    }
+    #featured
+    {
+        width: 100vw;
+    }
+    .currencyClass
+    {
         left: 50%;
-        top: 83%;
+        top: 82%;
     }
     #featuredText
     {
