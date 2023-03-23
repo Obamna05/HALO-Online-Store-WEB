@@ -19,11 +19,9 @@
 }
 body
 {
-    background-image: url(images/backgrounds/background.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url(images/backgrounds/background.jpeg) no-repeat center center fixed;
+    background-size: cover;
     background-color: black;
-    background-position-x: center;
     padding: 0;
     margin: 0;
 }
@@ -72,16 +70,6 @@ body
     right: 40px;
     top: 7px;
     font-family: "Street Robot", Arial, Helvetica, sans-serif;
-}
-@media screen and (max-width: 914px) {
-    #mainTitle
-    {
-        display:none;
-    }
-    body
-    {
-        background-size: auto;
-    }
 }
 #featured
 {
@@ -132,7 +120,7 @@ body
 #featuredP
 {
     max-width: 75%;
-    font-size: 21px;
+    font-size: 1.8vmin;
     color: white;
     position: relative;
     left: 5%;
@@ -140,8 +128,8 @@ body
 }
 .items
 {
-    height: 32%;
-    width: 18%;
+    height: 15vmin;
+    width: 20vmin;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 4;
@@ -161,11 +149,11 @@ body
     filter: contrast(110%);
     transform: rotate(30deg);
 }
-.items p
+.itemName
 {
     color: white;
     text-shadow: 2px 2px orange;
-    font-size: 1.5vw;
+    font-size: 3vmin;
     font-family: VABB, Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 75%;
@@ -182,10 +170,6 @@ body
     position: absolute;
     transform: rotate(-30deg);
     top: 30%;
-}
-#item2 p
-{
-    left: -12%;
 }
 #item3
 {
@@ -210,7 +194,22 @@ body
     position: absolute;
     top: 25%
 }
-#item4 p
+.itemPrice
 {
-    left: -9%
+    position: absolute;
+    font-family: VABB, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color:white;
+    top: 75%;
+    font-style: italic;
+}
+.currencyClass
+{
+    position: absolute;
+    font-family: "Street Robot", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 83%;
+    top: 79%;
+    left: 25%;
+    font-style: italic;
 }
