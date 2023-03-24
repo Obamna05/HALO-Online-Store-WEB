@@ -41,10 +41,14 @@
     {
         width: 100vw;
     }
+    .currencyClass, .itemPrice
+    {
+        font-size: 3vmin;
+        left: 0;
+    }
     .currencyClass
     {
-        left: 25%;
-        top: 78.5%;
+        top: 83%;
     }
     #featuredText
     {
@@ -100,10 +104,14 @@
     {
         width: 100vw;
     }
+    .currencyClass, .itemPrice
+    {
+        font-size: 3vmin;
+        left: 0;
+    }
     .currencyClass
     {
-        left: 50%;
-        top: 82%;
+        top: 83%;
     }
     #featuredText
     {
@@ -114,5 +122,9 @@
     #sideNav
     {
         width: 100%;
+    }
+    #currencyValue, #currency
+    {
+        font-size: 30px;
     }
 }

@@ -25,10 +25,13 @@ body
     padding: 0;
     margin: 0;
 }
+
+
 #topHeader
 {
+    z-index: 10;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     background-color: rgba(0, 0, 0, 0.548);
     position: fixed;
 }
@@ -78,8 +81,8 @@ body
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.623);
     width: 20%;
-    height: 89.5vh;
-    top: 100px;
+    height: 90vh;
+    top: 10vh;
 }
 #navList
 {
@@ -98,12 +101,14 @@ body
     font-size: 3vh;
     font-family: VABB, Arial, Helvetica, sans-serif;
 }
+
+
 #featured
 {
     display: inline;
     position: absolute;
-    height: 50%;
-    width: 100vh;
+    height: 50vh;
+    width: 50vw;
     top: 220px;
 }
 #featuredBG
@@ -119,11 +124,11 @@ body
 }
 #featuredDarken
 {
-    position: absolute;
-    width: 50%;
-    height: 50%;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
     background-color: rgba(0, 0, 0, 0.404);
-    left: 50%;
+    float: right;
     top: 220px;
     z-index: -1;
 }
@@ -131,9 +136,6 @@ body
 {
     position: inherit;
     max-width: 50%;
-    min-width: 25%;
-    left: -10%;
-    top: -20%;
     filter: brightness(125%);
     filter: contrast(150%);
 }
@@ -156,7 +158,7 @@ body
 .items
 {
     height: 15vmin;
-    width: 20vmin;
+    width: 10vw;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 1;
@@ -180,7 +182,7 @@ body
 {
     color: white;
     text-shadow: 2px 2px orange;
-    font-size: 3vmin;
+    font-size: 1.5vw;
     font-family: VABB, Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 75%;
@@ -223,20 +225,54 @@ body
 }
 .itemPrice
 {
-    position: absolute;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display:inline;
     font-family: VABB, Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    font-size: 1.1vw;
     color:white;
-    top: 75%;
+    top: 82%;
     font-style: italic;
 }
 .currencyClass
 {
-    position: absolute;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display:inline;
     font-family: "Street Robot", Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 83%;
-    top: 79%;
-    left: 25%;
+    font-size: 0.93vw;
+    top: 83%;
     font-style: italic;
+}
+
+
+#bundleWrapper, #bundleDarken
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 50%;
+    height: 60vh;
+    background-color: gold;
+    top: 300px;
+    float: right;
+}
+#bundleDarken 
+{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+}
+#bundleBG
+{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/backgrounds/Valhalla.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%)
 }

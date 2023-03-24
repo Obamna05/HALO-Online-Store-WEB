@@ -14,5 +14,4 @@ let sideNavController = function()
         isActive = false;
     }
 }
-
 menuButton.addEventListener("click", sideNavController);
