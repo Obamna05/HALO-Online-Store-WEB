@@ -52,6 +52,10 @@
         max-width: 100%;
         bottom: 90%;
     }
+    #sideNav
+    {
+        width: 25%;
+    }
 }
 @media screen and (max-width: 420px) {
     #item1
@@ -106,5 +110,9 @@
         left: 0;
         max-width: 100%;
         bottom: 90%;
+    }
+    #sideNav
+    {
+        width: 100%;
     }
 }

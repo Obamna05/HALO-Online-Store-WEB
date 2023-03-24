@@ -71,12 +71,39 @@ body
     top: 7px;
     font-family: "Street Robot", Arial, Helvetica, sans-serif;
 }
+#sideNav
+{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 20%;
+    height: 89.5vh;
+    top: 100px;
+}
+#navList
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navList li
+{
+    padding: 3vh;
+}
+#navList li a, #navList li a:visited, #navList li a:link, #navList li a:visited:active, #navList li a:link:active
+{
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: VABB, Arial, Helvetica, sans-serif;
+}
 #featured
 {
     display: inline;
     position: absolute;
     height: 50%;
-    width: 50%;
+    width: 100vh;
     top: 220px;
 }
 #featuredBG
@@ -98,7 +125,7 @@ body
     background-color: rgba(0, 0, 0, 0.404);
     left: 50%;
     top: 220px;
-    z-index: -2;
+    z-index: -1;
 }
 #promethean
 {
@@ -132,7 +159,7 @@ body
     width: 20vmin;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    z-index: 4;
+    z-index: 1;
     border: 2px solid black;
     border-radius: 5%;
 }
