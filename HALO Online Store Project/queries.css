@@ -60,6 +60,16 @@
     {
         width: 25%;
     }
+    #bundleWrapper
+    {
+        position: relative;
+        top: 70vh;
+        width: 100vw;
+    }
+    #bundleDarken
+    {
+        display: none;
+    }
 }
 @media screen and (max-width: 420px) {
     #item1
@@ -126,5 +136,11 @@
     #currencyValue, #currency
     {
         font-size: 30px;
+    }
+}
+@media screen and (max-width: 360px) {
+    #bundleWrapper
+    {
+        top: 78vh;
     }
 }
