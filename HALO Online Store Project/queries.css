@@ -1,19 +1,19 @@
 @media screen and (max-width: 768px) {
-    #item1
+    #item1, #bundleItem1
     {
         position: absolute;
         left: 10%;
         height: 20vmin;
         width: 25vmin;
     }
-    #item2
+    #item2, #bundleItem2
     {
         position: absolute;
         left: 65%;
         height: 20vmin;
         width: 25vmin;
     }
-    #item3
+    #item3, #bundleItem3
     {
         position: absolute;
         left: 10%;
@@ -21,7 +21,7 @@
         height: 20vmin;
         width: 25vmin;
     }
-    #item4
+    #item4, #bundleItem4
     {
         position: absolute;
         left: 65%;
@@ -29,7 +29,7 @@
         height: 20vmin;
         width: 25vmin;
     }
-    .itemName
+    .itemName, .bundleItemName
     {
         font-size: 4vmin;
     }
@@ -39,6 +39,7 @@
     }
     #featured
     {
+        top: 25vh;
         width: 100vw;
     }
     .currencyClass, .itemPrice
@@ -63,72 +64,15 @@
     #bundleWrapper
     {
         position: relative;
-        top: 70vh;
+        top: 75vh;
         width: 100vw;
     }
-    #bundleDarken
+    #bundleDarken, #chief, #locke
     {
         display: none;
     }
 }
 @media screen and (max-width: 420px) {
-    #item1
-    {
-        position: absolute;
-        left: 10%;
-        height: 20vmin;
-        width: 25vmin;
-    }
-    #item2
-    {
-        position: absolute;
-        left: 65%;
-        height: 20vmin;
-        width: 25vmin;
-    }
-    #item3
-    {
-        position: absolute;
-        left: 10%;
-        top: 60%;
-        height: 20vmin;
-        width: 25vmin;
-    }
-    #item4
-    {
-        position: absolute;
-        left: 65%;
-        top: 60%;
-        height: 20vmin;
-        width: 25vmin;
-    }
-    .itemName
-    {
-        font-size: 4vmin;
-    }
-    #mainTitle, #promethean, #featuredDarken, #featuredP
-    {
-        display:none;
-    }
-    #featured
-    {
-        width: 100vw;
-    }
-    .currencyClass, .itemPrice
-    {
-        font-size: 3vmin;
-        left: 0;
-    }
-    .currencyClass
-    {
-        top: 83%;
-    }
-    #featuredText
-    {
-        left: 0;
-        max-width: 100%;
-        bottom: 90%;
-    }
     #sideNav
     {
         width: 100%;
@@ -138,9 +82,9 @@
         font-size: 30px;
     }
 }
-@media screen and (max-width: 360px) {
-    #bundleWrapper
+@media screen and (max-width: 400px) {
+    *
     {
-        top: 78vh;
+        display: none;
     }
 }
