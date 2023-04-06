@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    #mainTitle
+    {
+        display: none;
+    }
+    #sideNav
+    {
+        width: 100%;
+        height: 100%
+    }
+    #formContainer
+    {
+        min-width: 70vw;
+        min-height: 50vh;
+        top: 100px;
+        left: 15%;
+    }
+    .field
+    {
+        margin-bottom: 4vh;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #currencyValue, #currency
+    {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    *
+    {
+        display: none;
+    }
+}

@@ -31,7 +31,7 @@ body
 {
     z-index: 10;
     width: 100%;
-    height: 10vh;
+    height: 100px;
     background-color: rgba(0, 0, 0, 0.548);
     position: fixed;
 }
@@ -77,12 +77,12 @@ body
 #sideNav
 {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.548);
     width: 20%;
-    height: 90vh;
-    top: 10vh;
+    height: 100vw;
+    top: 100px;
 }
 #navList
 {
@@ -286,10 +286,10 @@ body
 {
     display: inline;
     position: absolute;
-    max-width: 60vw;
+    max-width: 48vw;
     filter: brightness(80%);
     filter: contrast(100%);
-    bottom: -5vh;
+    bottom: 5vh;
 }
 #locke
 {
@@ -394,9 +394,10 @@ body
     position: relative;
     display:inline;
     font-family: VABB, Arial, Helvetica, sans-serif;
-    font-size: 1.1vw;
+    font-size: 3vw;
     color:white;
-    top: 0%;
+    left: 40%;
+    bottom: 10%;
     font-style: italic;
 }
 #bundleCurrency
@@ -407,7 +408,8 @@ body
     display:inline;
     font-family: "Street Robot", Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 0.93vw;
-    top: 0%;
+    font-size: 2.5vw;
+    left: 40%;
+    bottom: 10%;
     font-style: italic;
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contactStyle.css" rel="stylesheet">
+    <link href="contactQueries.css" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header id="topHeader">
+        <img id="mainEmblem" src="images/logos/halo_main_emblem.png" alt="halo_main_emblem">
+        <img id="mainTitle" src="images/logos/HALOSTORE.png" alt="mainTitle">
+        <p id="currencyValue">500</p>
+        <p id="currency">C</p>
+    </header>
+    <nav id="sideNav">
+        <ul id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#top">Store</a></li>
+            <li><a href="#top">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id = "formContainer">
+        <div id = "formBG"></div>
+        <form>
+            <h2>Contact</h2>
+            <input type="text" class = "field" id = "inputName" placeholder="Your Name" required>
+            <input type="email" class = "field" id = "inputEmail" placeholder="Your Email" required>
+            <select id = "selectIssue" class = "field" name = "Issue">
+                <option value= "empty" disabled selected>Select Issue</option>
+                <option value = "purchasingItem">Issue with purchasing item</option>
+                <option value = "purchasingCredits">Issue with purchasing credits</option>
+                <option value = "site">Issue with website</option>
+                <option value = "support">Issue with support</option>
+                <option value = "other">Other (specify below)</option>
+            </select>
+            <textarea class = "field" id = "message" rows="10" cols="50" placeholder="Why are you contacting us?" required></textarea>
+            <button class = "field" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src = "sideNavController.js"></script>
+</body>
+</html>

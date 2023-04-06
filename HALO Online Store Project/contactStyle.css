@@ -1,0 +1,149 @@
+*
+{
+    box-sizing: border-box;
+}
+@font-face
+{
+    font-family: Halo;
+    src: url(resources/Halo.ttf);
+}
+@font-face 
+{
+    font-family: Street Robot;
+    src: url(resources/Street-Robot-Inline.ttf);
+}
+@font-face 
+{
+    font-family: VABB;
+    src: url(resources/VoiceActivatedBB_reg.otf);
+}
+body
+{
+    background: url(images/backgrounds/unsc_infinity.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+#topHeader
+{
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.548);
+    position: fixed;
+}
+#mainEmblem
+{
+    max-height: 100px;
+    position: absolute;
+    left: 30px;
+}
+#mainTitle
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 20%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#currencyValue, #currency
+{
+    color: white;
+    font-size: 40px;
+    display: inline;
+    float: right;
+    position: absolute;
+    margin: 20px 0px 20px 0;
+    font-style: italic;
+}
+#currencyValue
+{   
+    right: 100px;
+    top: 3px;
+    text-align: right;
+    font-family: VABB, Arial, Helvetica, sans-serif;
+}
+#currency
+{
+    right: 40px;
+    top: 7px;
+    font-family: "Street Robot", Arial, Helvetica, sans-serif;
+}
+#sideNav
+{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 20%;
+    height: 100vw;
+    top: 100px;
+}
+#navList
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navList li
+{
+    padding: 3vh;
+}
+#navList li a, #navList li a:visited, #navList li a:link, #navList li a:visited:active, #navList li a:link:active
+{
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: VABB, Arial, Helvetica, sans-serif;
+}
+
+#formContainer
+{   
+    position: absolute;
+    left: 37.5vw;
+    top: 20vh;
+    height: 60%;
+    width: 25%;
+}
+#formContainer div
+{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    bottom: -5%;
+    background: url(images/backgrounds/halo-unsc-infinity-video-games-wallpaper-preview.jpg) no-repeat center 0 fixed;
+    background-size: cover;
+    border-radius: 30px;
+    filter: blur(5px);
+    opacity: 0.5;
+}
+#formContainer h2
+{
+    font-size: 4vw;
+    text-align: center;
+    position: relative;
+    font-family: VABB, Arial, Helvetica, sans-serif;
+}
+.field
+{
+    position: relative;
+    display: block;
+    margin-bottom: 2vh;
+    font-size: 1.4vh;
+    width: 75%;
+    left: 10%;
+    border-radius: 5px;
+    border: 3px solid black;
+    font-family: VABB, Arial, Helvetica, sans-serif;;
+}
+#message
+{
+    resize: none;
+}
+#formContainer button
+{
+    height: 4vh;
+}
