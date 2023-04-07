@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+    #infoContainer
+    {
+        width: 75vw;
+        height: 60vh;
+        left: 10vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    #mainTitle
+    {
+        display: none;
+    }
+    #sideNav
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #infoContainer
+    {
+        height: 70vh;
+    }
+    #infoContainer h1
+    {
+        font-size: 3.5vh;
+    }
+    #infoContainer p
+    {
+        font-size: 2.5vh;
+    }
+}
+@media screen and (max-width: 420px){
+    #currencyValue, #currency
+    {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    *
+    {
+        display: none;
+    }
+}

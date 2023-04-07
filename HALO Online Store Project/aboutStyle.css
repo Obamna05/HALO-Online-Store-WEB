@@ -19,7 +19,7 @@
 }
 body
 {
-    background: url(images/backgrounds/unsc_infinity.jpg) no-repeat center center fixed;
+    background: url(images/backgrounds/halo_infinite.jpg) no-repeat center center fixed;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -99,50 +99,44 @@ body
     font-family: VABB, Arial, Helvetica, sans-serif;
 }
 
-#formContainer
-{   
-    position: absolute;
-    left: 37.5vw;
-    top: 20vh;
-    height: 60%;
-    width: 25%;
-}
-#formContainer div
+#infoContainer
 {
+    width: 50vw;
+    height: 50vh;
     position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    bottom: -5%;
-    background: url(images/backgrounds/halo-unsc-infinity-video-games-wallpaper-preview.jpg) no-repeat center 0 fixed;
-    background-size: cover;
-    border-radius: 30px;
-    filter: blur(5px);
+    left: 20vw;
+    top: 20vh;
+    border-radius: 10px;
+}
+#infoBG
+{
+    height: 100%;
+    width: 100%;
+    position: inherit;
+    background: url(images/backgrounds/some_map.jpg) no-repeat center center fixed;
+    border-radius: inherit;
+    filter: blur(3px);
     opacity: 0.5;
 }
-#formContainer h2
+#infoContainer h1
 {
-    font-size: 4vw;
-    text-align: center;
-    position: relative;
+    position: inherit;
     font-family: VABB, Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    left: 3%;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.2px;
 }
-.field
+#infoContainer p
 {
-    position: relative;
-    display: block;
-    margin-bottom: 2vh;
-    font-size: 1.4vh;
-    width: 75%;
-    left: 10%;
-    border-radius: 5px;
-    border: 3px solid black;
-    font-family: VABB, Arial, Helvetica, sans-serif;;
-}
-#message
-{
-    resize: none;
-}
-#formContainer button
-{
-    height: 4vh;
+    position: inherit;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-family: VABB, Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.8px;
+    left: 3%;
+    top: 15%;
 }
