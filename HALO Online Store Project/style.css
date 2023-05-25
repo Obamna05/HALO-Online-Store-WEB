@@ -234,18 +234,7 @@ body
     color:white;
     top: 82%;
     font-style: italic;
-}
-.currencyClass
-{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display:inline;
-    font-family: "Street Robot", Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 0.93vw;
-    top: 83%;
-    font-style: italic;
+    text-shadow: 2px 2px orange;
 }
 
 
@@ -370,7 +359,7 @@ body
 .bundleItemName
 {
     color: white;
-    text-shadow: 2px 2px rgb(97, 97, 97);
+    text-shadow: 2px 2px orange;
     font-size: 1.5vw;
     font-family: VABB, Arial, Helvetica, sans-serif;
     position: absolute;
@@ -399,17 +388,5 @@ body
     left: 40%;
     bottom: 10%;
     font-style: italic;
-}
-#bundleCurrency
-{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display:inline;
-    font-family: "Street Robot", Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 2.5vw;
-    left: 40%;
-    bottom: 10%;
-    font-style: italic;
+    text-shadow: 2px 2px orange;
 }
