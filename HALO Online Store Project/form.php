@@ -7,7 +7,7 @@
     <title>Forma</title>
 </head>
 <body>
-    <form action="addToJson.php" method = "post">
+    <form action="addToJson.php" method = "post" enctype="multipart/form-data">
         <div>
             <label for = "itemName">Item Name: </label>
             <input type = "text" name = "itemName" id = "itemName">
